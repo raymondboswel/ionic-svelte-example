@@ -10,6 +10,11 @@ only shows twice, then stops showing as the is-open flag isn't set to false agai
 I'm not 100% sure if I put the ion-modal tag in the right place. I also tried to add to to App.svelte within the ion-app tag,
 but that had additional layout and usage issue. 
 
+Another side note, I also created an issue in the Ionic docs repo on how to use Ionicons in a bundled context, as that's 
+something which seems it should be doable, but I couldn't find any info on it. You should see the exception in the dev tools
+when opening the action sheet via the fab. (https://github.com/ionic-team/ionic-docs/issues/2130) My current workaround is
+to download the icon and reference it via the src attr, but that only works when directly using ion-icon. 
+
 Thanks!
 
 
