@@ -5,7 +5,12 @@ To run project:
 The leave animation doesn't seem weird anymore, so I must have done something different, however the layout issue 
 still remains. You can uncomment 'IonicShowModal("wc-create-project", CreateProject, {})' in index.svelte to see 
 the alternate strategy in action. You'll also notice I have to re-set the onDismiss handler, otherwise the modal
-only shows twice, then stops showing as the is-open flag isn't set to false again. Thanks!
+only shows twice, then stops showing as the is-open flag isn't set to false again. 
+
+I'm not 100% sure if I put the ion-modal tag in the right place. I also tried to add to to App.svelte within the ion-app tag,
+but that had additional layout and usage issue. 
+
+Thanks!
 
 
 ![](/assets/svelte_cap.png)
