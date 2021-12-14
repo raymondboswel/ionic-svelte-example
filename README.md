@@ -1,3 +1,13 @@
+To run project:
+> npm i
+> npm run dev:start
+
+The leave animation doesn't seem weird anymore, so I must have done something different, however the layout issue 
+still remains. You can uncomment 'IonicShowModal("wc-create-project", CreateProject, {})' in index.svelte to see 
+the alternate strategy in action. You'll also notice I have to re-set the onDismiss handler, otherwise the modal
+only shows twice, then stops showing as the is-open flag isn't set to false again. Thanks!
+
+
 ![](/assets/svelte_cap.png)
 # Svelte + Capacitor (w/ live reload) Template
 
