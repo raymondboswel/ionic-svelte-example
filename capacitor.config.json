@@ -1,0 +1,15 @@
+{
+  "appId": "",
+  "appName": "",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "public",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0,
+      "backgroundColor": "#fff",
+      "androidScaleType": "CENTER_CROP"
+    }
+  },
+  "cordova": {}
+}

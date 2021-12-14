@@ -1,0 +1,14 @@
+{
+    "projects": {
+      "svelte-capacitor": {
+        "name": "app",
+        "integrations": {
+          "capacitor": {}
+        },
+        "type": "custom",
+        "root": "src"
+      }
+    },
+    "defaultProject": "svelte-capacitor"
+  }
+  

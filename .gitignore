@@ -1,0 +1,13 @@
+/node_modules/
+/public/build/
+/public
+.routify/
+
+
+package-lock.json
+.env
+.DS_Store
+
+/assets/ionic
+
+/~/tmp/
