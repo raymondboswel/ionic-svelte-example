@@ -65,7 +65,7 @@
     "@capacitor/ios": "^3.0.1",
     "@ionic-native/core": "^5.36.0",
     "@ionic-native/in-app-browser": "^5.36.0",
-    "@ionic/core": "6.0.0-rc.3",
+    "@ionic/core": "6.0.0",
     "@ionic/pwa-elements": "^3.0.2",
     "axios": "^0.24.0",
     "capacitor-secure-storage-plugin": "^0.6.2",
