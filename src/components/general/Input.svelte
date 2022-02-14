@@ -15,7 +15,7 @@ input:focus {
 }
 
 input {
-  border: 1px solid var(--ion-color-trimble-gray-0);
+  border: 1px solid var(--ion-color-gray-0);
   padding-left: 8px;
   padding-top: 2px;
   padding-bottom: 2px;
